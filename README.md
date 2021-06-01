@@ -12,7 +12,7 @@ SSH到小鸡，使用root用户并转到根目录
 
 #cd /   
   
-下载dnsproxy开源软件并解压，然后拷贝到缺省的环境目录  
+下载dnsproxy开源软件并解压，然后拷贝到系统有的环境目录  
   
 #wget https://github.com/AdguardTeam/dnsproxy/releases/download/v0.37.4/dnsproxy-linux-amd64-v0.37.4.tar.gz   
   
