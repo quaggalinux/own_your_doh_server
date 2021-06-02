@@ -22,6 +22,15 @@ SSH到小鸡，使用root用户并转到根目录
   
 #rm -rf /linux-amd64  
   
+检查运行权限,如果没有就置运行权限  
+  
+#ls -l /usr/local/bin/dnsproxy  
+  
+运行程序验证可用  
+  
+#dnsproxy --version  
+  
+  
 这里假设各位机友自己能够安装nginx，certbot，python3-certbot-nginx等包，建议使用apt方式安装，然后自己可以写虚拟主机配置并签证书
 
 如果https的页面已经可以正常访问的话，编辑虚拟主机配置，加入下面的配置内容，就只是location /dns-query的包含部分  
